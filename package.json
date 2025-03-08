@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "a backend approach application",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Rachit Dubey",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  }
+  "license": "ISC"
 }
