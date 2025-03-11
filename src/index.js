@@ -2,10 +2,11 @@ import mongoose from "mongoose";
 import { DB_NAME } from "./constants.js";
 import express from "express";
 import dotenv from "dotenv";
+import cors from "cors";
+import cookieParser from "cookie-parser";
+import { app } from "./app.js";
 
 dotenv.config();
-
-const app = express();
 
 (async () => {
   try {
