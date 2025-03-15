@@ -1,0 +1,3 @@
+Access tokens are short lived 
+Refresh Tokens are Long lived
+

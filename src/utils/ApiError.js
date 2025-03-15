@@ -5,7 +5,7 @@ class ApiError extends Error {
     error = [],
     stack = ""
   ) {
-    super(message);
+    super(message); //super(message); call invokes the constructor of the parent class (Error). This is necessary to properly initialize the Error object with the provided message.
     this.statusCode = statusCode;
     this.data = null;
     this.message = message;
